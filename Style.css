@@ -1,0 +1,135 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500&family=Poppins:ital,wght@0,400;1,600;1,700&display=swap');
+
+
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+
+.logo i{
+    color: burlywood;
+    font-size: 2.5rem;
+}
+
+.logo span{
+    font-size: 1.3rem;
+    font-weight: 800;
+
+}
+.top-nav .phone i{
+    font-size: 1.5rem;
+    color: burlywood;
+}
+.top-nav .phone span{
+    font-weight: 800;
+}
+.top-nav .location i{
+    font-size: 1.5rem;
+    color: burlywood;
+}
+.top-nav .location span{
+   font-weight: 800;
+}
+
+.top-nav button{
+    padding: .5rem 1rem;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: .1rem;
+    background-color: rgb(60, 48, 30);
+    color:burlywood;
+}
+.bottom-nav{
+    color: cornflowerblue;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.bottom-nav>div:last-child i{
+    cursor: pointer;
+    font-weight: 600;
+}
+.navlist{
+    display: flex;
+}
+.navlist li{
+    cursor: pointer;
+    padding: 1rem 2rem;
+    position: relative;
+
+}
+.navlist ul li a{
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.navlist li i{
+    padding: .3rem;
+
+}
+.navlist li:hover{
+    background-color: chocolate;
+}
+
+.home{
+    background:url("dd.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   
+}
+.home .content{
+    position:relative;
+    top: 11rem;
+    max-width: 600px;
+    z-index: 1;
+
+}
+.home .content .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+ 
+
+}
+.section{
+    padding: 5rem 0 3rem;
+}
+
+.btn{
+    height: 3rem;
+    width: 10rem;
+    font-weight: 500;
+    background-color: burlywood;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: .4rem;
+    overflow: hidden;
+    position: relative;
+}
+.menu-btn{
+    display: none;
+}
+
+h1 {
+    color: red; /* Change this to your desired color (e.g., red) */
+}
+
+p {
+    color: rgb(195, 195, 209); /* Change this to your desired color (e.g., blue) */
+}
